@@ -31,5 +31,4 @@ plugins:
 extra:
   annotate:
     json: [.s2]
-extra_css:
-  - snippets/position.css
+extra_css: [_includes/position.css]
