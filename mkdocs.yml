@@ -3,6 +3,7 @@ site_url: https://t4gamer.github.io/
 nav:
   - Home: index.md
   - Git good: git.md
+  - Html: html.md
 theme:
   name: material
   features:
@@ -18,7 +19,17 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - md_in_html
+  - attr_list
+  - def_list
+  - admonition
+  - pymdownx.details # Required for collapsible admonitions
+  - pymdownx.superfences
+plugins:
+  - search
+  - macros
 
 extra:
   annotate:
     json: [.s2]
+extra_css:
+  - snippets/position.css
