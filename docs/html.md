@@ -15,7 +15,7 @@ there are four main types of positioning
 !!! warning
      It is not affected by `top`, `bottom`, `left`, or `right` properties.
 
-{% include 'static.html' %}
+{% include static.html %}
 
 ```css
 .element {
@@ -28,7 +28,7 @@ there are four main types of positioning
 : Moves the element **relative to its normal position**
 : The space it would normally occupy in the document flow is preserved.
 
-{% include 'relative.html' %}
+{% include relative.html %}
 
 ```css
 .elem{
@@ -40,9 +40,9 @@ there are four main types of positioning
 
 ### Absolute
 
-: Positioned **relative to the nearest positioned ancestor** (an ancestor with `position` other than `static`). If no such ancestor : exists, it's relative to the initial containing block (usually the `body` or `html`). An absolutely positioned element is **removed from the normal document flow**
+: Positioned **relative to the nearest positioned ancestor** (an ancestor with `position` other than `static`). If no such ancestor : exists, its relative to the initial containing block (usually the `body` or `html`). An absolutely positioned element is **removed from the normal document flow**
 
-{% include 'absolute.html' %}
+{% include absolute.html %}
 
 ```css
 .elem{
@@ -56,7 +56,7 @@ there are four main types of positioning
 
 : Positioned **relative to the viewport**. It remains in the same position even when the page is scrolled, useful for persistent headers or footers.
 
-{% include 'fixed.html' %}
+{% include fixed.html %}
 
 ```css
 .elem{
