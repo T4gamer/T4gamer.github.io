@@ -1,0 +1,26 @@
+site_name: The not so professional node tutorial
+site_description: Course webist for some node course
+site_author: T4gamer
+site_url: https://T4gamer.github.io/the-unprofessional-node/
+nav:
+  - Home: index.html
+# markdown_extensions:
+# theme:
+#   name: material
+#   custom_dir: theme
+#   logo: img/logo.svg
+#   features:
+#   palette:
+
+# extra_css: [stylesheets/extra.css]
+
+# markdown_extensions:
+
+# extra:
+
+#   analytics:
+
+# plugins:
+
+repo_name: T4gamer/the-unprofessional-node
+repo_url: https://github.com/T4gamer/the-unprofessional-node
