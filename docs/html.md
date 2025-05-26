@@ -8,6 +8,7 @@ there are four main types of positioning
 * Relative
 * Absolute
 * Fixed
+* Sticky
 
 ### Static
 
@@ -69,3 +70,25 @@ there are four main types of positioning
 
 !!! note
     the **z-index** refers to the position of the element being in front or back of other elements
+
+### Sticky
+
+: Behaves like `relative` until a scroll threshold is met, then it becomes `fixed` relative to its nearest scrolling ancestor
+
+{% include "snippets/sticky.html" %}
+
+```css
+.elem{
+    position: sticky;
+    top: 10px;
+}
+```
+
+## Assignment
+
+### Instruction
+
+1. Download the index.html and style.css file website
+2. flow comments to use postions where assign to Achive Result shown to you in the video
+
+### DOWNLOAD FROM HERE [:link: First Assignment](https://t4gamer.github.io/site/assignment/hw-1/index.html) :smile:
