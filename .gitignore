@@ -1,2 +1,4 @@
 mkdocs.yml
 /.vscode
+/docs
+/_includes
