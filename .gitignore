@@ -1,5 +1,5 @@
 /.vscode
-# mkdocs.yml
-# /docs
+mkdocs.yml
+/docs
 /_includes
 *solution*
