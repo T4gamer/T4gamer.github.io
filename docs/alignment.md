@@ -7,9 +7,9 @@
 ## A Row
 
 * The .row class creates a flex container.
-* `display: flex;` enables flexbox layout on the element.
+* `display: flex;` enables `flexbox` layout on the element.
 * `flex-direction: row;` arranges child elements horizontally in a row.
-* `flex-wrap: wrap;` changes items arrangement if the width of the row got too small {==wraping the row so it fits the items==}
+* `flex-wrap: wrap;` changes items arrangement if the width of the row got too small {== wrapping the row so it fits the items==}
 
 ```css
 .row {
@@ -30,6 +30,8 @@
 
 !!! note
     the main axis of a Row is `the Vertical Axis`, the arrangement of the content can be change with justify-content style
+
+#### Centered content
 
 {%include "snippets/align/simple_row_align_cont.html" %}
 
@@ -55,7 +57,7 @@
 * space-around
 * space-evenly
 
-: example around
+#### space around Content
 
 {%include "snippets/align/simple_row_space_around.html" %}
 
@@ -66,7 +68,7 @@
 }
 ```
 
-: example start
+#### content at the start of the row
 
 {%include "snippets/align/simple_row_start.html" %}
 
@@ -77,7 +79,7 @@
 }
 ```
 
-: example end
+#### content at the end of the row
 
 {%include "snippets/align/simple_row_end.html" %}
 
@@ -88,14 +90,20 @@
 }
 ```
 
+### cross axis alignment
+
+: if you have noticed all the previous
+
 ## Columns
 
-: good example of a dynamic Column
 !!! note
-    it is recommended that the column is given 100% width by trial you will discover that it is much simpler to work with the column with this
+    it is recommended that the column is given 100% width by trial you will discover that it is much simpler to work with.
 
 !!! note
-    box-sizing redfines the interaction between the elemments making it much more stable and predictable and less prone to face issues with overflow
+    box-sizing redefines the interaction between the elements making it much more stable and predictable and less prone to encounter overflow issues
+
+### good example of a dynamic Column
+
 {%include "snippets/align/simple-column.html"%}
 
 ```css
