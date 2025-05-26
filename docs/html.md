@@ -88,7 +88,7 @@ there are four main types of positioning
 
 ### Instruction
 
-1. Download the index.html and style.css file website
-2. flow comments to use postions where assign to Achive Result shown to you in the video
+1. Download the index.html and style.css files from the website source
+2. follow comments to use postion property with the help of the comments in the html file to Achive Result shown to you via video i am gonna send
 
 ### DOWNLOAD FROM HERE [:link: First Assignment](assignments/hw-1/index.html) :smile:
