@@ -91,4 +91,6 @@ there are four main types of positioning
 1. Download the index.html and style.css files from the website source
 2. follow comments to use position property with the help of the comments in the html file to Achive Result shown to you via video i am gonna send
 
-### DOWNLOAD FROM HERE [:link: First Assignment](assignments/hw-1/index.html) :smile:
+### DOWNLOAD FROM HERE [:link: First Assignment](https://drive.google.com/file/d/12tPhg-R1AH5aIIngeiuxu3y7YebTYs0Q/view?usp=sharing)    :smile:
+
+#### [:link: preview the Page](assignments/hw-1/index.html)
