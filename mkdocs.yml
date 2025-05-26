@@ -3,7 +3,9 @@ site_url: https://t4gamer.github.io/
 nav:
   - Home: index.md
   - Git good: git.md
-  - Html: html.md
+  - Html Positioning: html.md
+  - Html Alignment: alignment.md
+
 theme:
   name: material
   features:
@@ -38,4 +40,4 @@ extra:
     json: [.s2]
     
 extra_css:
-  - snippets/position.css
+  - snippets/extra.css

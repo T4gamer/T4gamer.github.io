@@ -16,7 +16,7 @@ there are four main types of positioning
 !!! warning
      It is not affected by `top`, `bottom`, `left`, or `right` properties.
 
-{% include "snippets/static.html" %}
+{% include "snippets/pos/static.html" %}
 
 ```css
 .element {
@@ -29,7 +29,7 @@ there are four main types of positioning
 : Moves the element **relative to its normal position**
 : The space it would normally occupy in the document flow is preserved.
 
-{% include "snippets/relative.html" %}
+{% include "snippets/pos/relative.html" %}
 
 ```css
 .elem{
@@ -43,7 +43,7 @@ there are four main types of positioning
 
 : Positioned **relative to the nearest positioned ancestor** (an ancestor with `position` other than `static`). If no such ancestor : exists, its relative to the initial containing block (usually the `body` or `html`). An absolutely positioned element is **removed from the normal document flow**
 
-{% include "snippets/absolute.html" %}
+{% include "snippets/pos/absolute.html" %}
 
 ```css
 .elem{
@@ -57,7 +57,7 @@ there are four main types of positioning
 
 : Positioned **relative to the viewport**. It remains in the same position even when the page is scrolled, useful for persistent headers or footers.
 
-{% include "snippets/fixed.html" %}
+{% include "snippets/pos/fixed.html" %}
 
 ```css
 .elem{
@@ -75,7 +75,7 @@ there are four main types of positioning
 
 : Behaves like `relative` until a scroll threshold is met, then it becomes `fixed` relative to its nearest scrolling ancestor
 
-{% include "snippets/sticky.html" %}
+{% include "snippets/pos/sticky.html" %}
 
 ```css
 .elem{
@@ -84,11 +84,11 @@ there are four main types of positioning
 }
 ```
 
-## Assignment
+## Assignment 1
 
 ### Instruction
 
 1. Download the index.html and style.css files from the website source
-2. follow comments to use postion property with the help of the comments in the html file to Achive Result shown to you via video i am gonna send
+2. follow comments to use position property with the help of the comments in the html file to Achive Result shown to you via video i am gonna send
 
 ### DOWNLOAD FROM HERE [:link: First Assignment](assignments/hw-1/index.html) :smile:

@@ -16,12 +16,6 @@ body {
     line-height: 1.6;
 }
 
-h1,
-h2 {
-    text-align: center;
-    color: var(--primary);
-}
-
 section {
     margin: 2rem 0;
 }
@@ -72,27 +66,37 @@ pre {
     margin-top: 1rem;
 }
 
-.comparison-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1.5rem;
-}
-
-.comparison-table th,
-.comparison-table td {
-    border: 1px solid var(--border-color);
-    padding: 0.75rem;
-    text-align: left;
-}
-
-.comparison-table th {
-    background-color: #f0f0f0;
-}
-
-.comparison-table tr:nth-child(even) {
-    background-color: #fbfbfb;
-}
-
 ul {
     padding-left: 1.5rem;
+}
+
+/* alignment things */
+.row {
+    display: flex;
+    flex-direction: row;
+    border: 2px dashed var(--border-color);
+    gap: 10px;
+    padding: 10px;
+}
+
+.column {
+    border: 2px dashed var(--border-color);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0px auto;
+    gap: 10px;
+}
+
+.demo-box.gr {
+    background-color: green;
+}
+
+.demo-box.red {
+    background-color: red;
+}
+
+.demo-box.bl {
+    background-color: #3498db;
 }
