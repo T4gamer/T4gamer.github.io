@@ -91,4 +91,4 @@ there are four main types of positioning
 1. Download the index.html and style.css file website
 2. flow comments to use postions where assign to Achive Result shown to you in the video
 
-### DOWNLOAD FROM HERE [:link: First Assignment](https://t4gamer.github.io/site/assignment/hw-1/index.html) :smile:
+### DOWNLOAD FROM HERE [:link: First Assignment](assignments/hw-1/index.html) :smile:
