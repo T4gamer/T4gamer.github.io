@@ -2,4 +2,4 @@
 
 a guide made by a someone who is not an expert 🙃💥
 
-## [Home Page](/site)
+## [Home Page](https://t4gamer.github.io/site/)
